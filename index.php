@@ -53,7 +53,7 @@ require_once __DIR__ . '/models/Category.php';
         ?>
 
 
-        <div class="card" style="width: 18rem;">
+        <div class="card inline-block" style="width: 18rem;">
             <!-- <img src="..." class="card-img-top" alt="Non ancora inserita"> -->
             <div class="card-body">
                 <h5 class="card-title text-center"><?php echo $croccantini->getName() ?></h5>
@@ -97,6 +97,7 @@ require_once __DIR__ . '/models/Category.php';
                 <a href="#" class="btn btn-primary">Acquista</a>
             </div>
         </div>
+        
     </main>
 
 </body>
